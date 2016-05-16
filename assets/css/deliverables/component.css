@@ -241,8 +241,8 @@
 }
 
 .filter__item--selected {
-	color: #5c5edc;
-	border-color: #5c5edc;
+	color: #222;
+	border-color: #222;
 }
 
 .filter__item .icon {
