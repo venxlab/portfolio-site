@@ -412,9 +412,9 @@ textarea.form-control {
 
 .start {
 	font-family: Libre Baskerville, "Times New Roman", Times, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 300;
-	letter-spacing: .5px;
+	letter-spacing: 1px;
 	text-transform: none;
 	margin: 15px auto;
 	width: 50%;
