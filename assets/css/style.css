@@ -306,10 +306,10 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
+	background: url(../images/cover.jpg);
+	background-position: 50% 50%;
 	background-color: #222;
 	background-repeat: no-repeat;
-	background-position: 0 0;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -327,7 +327,8 @@ textarea.form-control {
 .calltoaction-decription{
     padding-top: 20px;
     padding-bottom: 30px;
-    font-size: 20px;
+    font-family: Libre Baskerville, "Times New Roman", sans-serif;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -336,13 +337,16 @@ textarea.form-control {
 }
 
 .calltoaction-btn > .btn {
-    background: rgba(255, 255, 255, .8);
-    color: #111;
+  background: rgba(255, 255, 255, .0);
+  background: transparent;
+  color: #FFF;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	border: 2px solid rgba(255, 255, 255, .8);
 }
 .calltoaction-btn > .btn:hover{
     background: #fff;
+    color:#222;
 }
 
 .long-down {
