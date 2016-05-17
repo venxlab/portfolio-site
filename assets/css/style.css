@@ -20,7 +20,9 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #E7746F; /* red */ 
+/*	color: #50bd9d; /* green */
+*/
 }
 
 a:hover {
@@ -290,6 +292,7 @@ textarea.form-control {
 	font-family: Libre Baskerville, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 15px;
+	letter-spacing: .5px;
 }
 
 .pfblock-line {
@@ -329,6 +332,7 @@ textarea.form-control {
     padding-bottom: 30px;
     font-family: Libre Baskerville, "Times New Roman", sans-serif;
     font-size: 14px;
+    letter-spacing: .5px;
     color: #fff;
 }
 
@@ -404,7 +408,7 @@ textarea.form-control {
 	font-family: Libre Baskerville, "Times New Roman", Times, sans-serif;
 	font-size: 13px;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	text-transform: none;
 	margin: 15px auto;
 	width: 50%;
@@ -812,7 +816,7 @@ textarea.form-control {
 }
 
 .grid figure p {
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	font-size: 68.5%;
 }
 
