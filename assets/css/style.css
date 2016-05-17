@@ -306,7 +306,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-	background: url(../images/cover.jpg);
+	/*background: url(../images/cover.jpg);*/
 	background-position: 50% 50%;
 	background-color: #222;
 	background-repeat: no-repeat;
