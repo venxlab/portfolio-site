@@ -328,6 +328,7 @@ textarea.form-control {
 	font-size: 18px;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
+	color: #f5f5f5;
 }
 
 .calltoaction-decription{
@@ -336,7 +337,9 @@ textarea.form-control {
     font-family: Libre Baskerville, "Times New Roman", sans-serif;
     font-size: 14px;
     letter-spacing: .5px;
-    color: #fff;
+    color: #f5f5f5;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .calltoaction-btn {
