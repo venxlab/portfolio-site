@@ -424,12 +424,24 @@ textarea.form-control {
  * Servise
 /* ---------------------------------------------- */
 
+.process-box {
+	width: 20%;
+}
 .iconbox {
 	background: #fff;
 	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
 	padding: 40px 20px;
 	margin: 0 0 20px;
+	max-height: 150px;
+  overflow: hidden;
+  	transition: max-height 0.5s;
+	-webkit-transition: max-height 0.5s;
+}
+
+.iconbox:hover {
+	max-height: 400px;
+
 }
 
 .iconbox-icon {
@@ -442,6 +454,7 @@ textarea.form-control {
 	margin: 0 0 15px;
 	padding: 0;
 }
+
 
 /* ---------------------------------------------- /*
  * Skills
@@ -710,6 +723,14 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
+
+@media (max-width: 992px) {
+
+	.process-box {
+		width: 100%;
+	}
+
+}
 
 @media (max-width: 767px) {
 
