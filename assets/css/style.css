@@ -437,9 +437,10 @@ textarea.form-control {
   overflow: hidden;
   	transition: max-height 0.5s;
 	-webkit-transition: max-height 0.5s;
+	transition-timing-function: ease-in-out;
 }
 
-.iconbox:hover, .iconbox:active {
+.iconbox:hover, .iconbox:focus {
 	max-height: 400px;
 
 }
@@ -728,6 +729,10 @@ textarea.form-control {
 
 	.process-box {
 		width: 100%;
+	}
+
+	.iconbox {
+		max-height: 450px;
 	}
 
 }
