@@ -424,27 +424,28 @@ textarea.form-control {
  * Servise
 /* ---------------------------------------------- */
 
-.process-box {
-	width: 20%;
+/*.process-box {
+	height: 400px;
 }
-.iconbox {
+*/.iconbox {
 	background: #fff;
 	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
-	padding: 40px 20px;
+	padding: 30px 20px;
 	margin: 0 0 20px;
-	max-height: 150px;
+	min-height: 300px;
+/*	max-height: 150px;
   overflow: hidden;
   	transition: max-height 0.5s;
 	-webkit-transition: max-height 0.5s;
 	transition-timing-function: ease-in-out;
-}
+*/}
 
-.iconbox:hover, .iconbox:focus {
+/*.iconbox:hover, .iconbox:focus {
 	max-height: 400px;
 
 }
-
+*/
 .iconbox-icon {
 	margin: 0 0 15px;
 	font-size: 32px;
@@ -732,6 +733,7 @@ textarea.form-control {
 	}
 
 	.iconbox {
+		min-height: 200px;
 		max-height: 450px;
 	}
 
