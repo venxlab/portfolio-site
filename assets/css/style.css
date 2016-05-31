@@ -211,7 +211,7 @@ textarea.form-control {
 .btn-lg,
 .btn-group-lg > .btn {
 	padding: 10px 25px;
-	font-size: 13px;
+	font-size: 12px;
     background: rgba(17, 17, 17, 0.8);
     color: #fff;
 }
@@ -352,7 +352,7 @@ textarea.form-control {
   color: #FFF;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	border: 2px solid rgba(255, 255, 255, .8);
+	border: 1px solid rgba(255, 255, 255, .8);
 }
 .calltoaction-btn > .btn:hover{
     background: #fff;
