@@ -23,8 +23,8 @@ img {
 }
 
 a {
-	color: #E7746F; /* red */ 
-/*	color: #50bd9d; /* green */
+/*	color: #E7746F; /* red */ 
+color: #059A91; /* green 
 */
 }
 
@@ -435,16 +435,15 @@ textarea.form-control {
 }
 
 .calltoaction-btn > .btn {
-  background: rgba(255, 255, 255, .0);
-  background: transparent;
-  color: #FFF;
+	background: transparent;
+  color: #059A91;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	border: 1px solid rgba(255, 255, 255, .8);
+	border: 2px solid #059A91;
 }
 .calltoaction-btn > .btn:hover{
-    background: #fff;
-    color:#222;
+    background: #059A91;
+    color:#fff;
 }
 
 .long-down {
@@ -679,7 +678,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #059A91;
 }
 
 .navbar-custom .navbar-brand {
