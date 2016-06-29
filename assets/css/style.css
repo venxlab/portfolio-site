@@ -46,6 +46,16 @@ body p span{
     overflow: hidden;
   }
 
+.hero-hmd {
+    background-image:url('../images/align_main_hero.jpg');
+    background-size:cover;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+    height:400px;
+    overflow: hidden;
+  }
+
+
 .hero-overlay {
     background-color: rgba(44, 62, 80, 0.5);
     /*background-image: url("../images/pattern.png");*/
@@ -109,6 +119,15 @@ body p span{
 
 .align-intro {
 	text-align: center;
+}
+
+.carousel-control {
+	position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  font-size: 30px;
+  opacity: 0.8;
 }
 
 /* ---------------------------------------------- /*
