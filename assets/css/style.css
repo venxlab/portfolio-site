@@ -47,7 +47,7 @@ body p span{
   }
 
 .hero-hmd {
-    background-image:url('../images/align_main_hero.jpg');
+    background-image:url('../images/hmd_main_thumb.jpg');
     background-size:cover;
     background-color: #EEEEEE;
     background-repeat: no-repeat;
@@ -122,6 +122,11 @@ body p span{
 	text-align: center;
 }
 
+.carousel {
+	height: 350px;
+	overflow: hidden;
+}
+
 .carousel-control {
 	position: absolute;
   top: 45%;
@@ -129,6 +134,15 @@ body p span{
   display: inline-block;
   font-size: 30px;
   opacity: 0.8;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-inner {
+	top: 50%;
+  transform: translateY(-50%);
 }
 
 /* ---------------------------------------------- /*
