@@ -89,6 +89,7 @@ body p span{
 .align-persona {
 	border:1px solid #EEEEEE;
 	padding: 15px;
+	margin-bottom: 30px;
 }
 
 .align-persona h3:first-of-type {
@@ -123,7 +124,7 @@ body p span{
 
 .carousel-control {
 	position: absolute;
-  top: 50%;
+  top: 45%;
   z-index: 5;
   display: inline-block;
   font-size: 30px;
