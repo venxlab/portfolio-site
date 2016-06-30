@@ -682,7 +682,7 @@ textarea.form-control {
 
 .header {
 	background-color: #fff;
-	border-bottom: 1px solid #f5f5f5;
+	/*border-bottom: 1px solid #f5f5f5;*/
 	position: relative;
 	width: 100%;
 	z-index: 998;
@@ -723,6 +723,8 @@ textarea.form-control {
 	font-weight: 700;
 	font-size: 25px;
   font-family: Playweather Display SC;
+  background-color: #222;
+  color: #fafafa;
 }
 
 .navbar-custom .dropdown-menu {
