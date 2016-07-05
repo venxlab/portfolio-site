@@ -34,7 +34,7 @@ text-transform: uppercase;
 
 h2 {
 
-	font-family: Roboto Condensed, sans-serif;
+	font-family: Oswald, sans-serif;
 	font-size: 40px;
 	font-weight:700; 
 	text-transform: uppercase;
@@ -45,7 +45,7 @@ h2 {
 	} 
 
 .h2-subheader p, .h2-subheader ul {
-	font-family: Roboto Condensed, sans-serif;
+	font-family: Oswald, sans-serif;
 	font-size: 25px;
 	font-weight:300; 
 	line-height: 45px;
