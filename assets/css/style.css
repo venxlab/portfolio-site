@@ -339,13 +339,13 @@ textarea.form-control {
 .btn-group-lg > .btn {
 	padding: 10px 25px;
 	font-size: 12px;
-    background: rgba(17, 17, 17, 0.8);
+    background: #059a91;
     color: #fff;
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover{
-    background: rgba(17, 17, 17, 1.8);
-    color: #fff;
+    background: #fff;
+    color: #059a91;
 }
 
 .btn-sm,
