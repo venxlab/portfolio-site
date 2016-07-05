@@ -94,7 +94,9 @@ body ul {
 	padding-left: 25px;
 }
 
-.pfblock-black > div > h3 {
+.pfblock-black > div > h3,
+.pfblock-black > div > h2,
+.pfblock-black > div > .h2-subheader p{
 	color: #fafafa;
 	letter-spacing: 1px;
 }
