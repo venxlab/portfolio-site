@@ -1,0 +1,103 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+
+/*~~~~~~~~~~~~~~~~~~~~~
+ Typography
+~~~~~~~~~~~~~~~~~~~~~*/
+
+h1, h2, h3, h4, h5, h6 {
+	/*letter-spacing: 4px;*/
+	margin: 5px 0 5px;
+	color: #222;
+}
+
+h1 {
+font-family: Raleway,	sans-serif;
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.h1-subheader {
+	font-family: Libre Baskerville, "Times New Roman", Times;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-transform: none;
+	margin: 15px auto;
+	width: 50%;
+}
+
+h2 {
+
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	font-weight:700; 
+	text-transform: uppercase;
+	margin: 0 0 40px;
+	letter-spacing: 2px;
+	color: #222;
+
+	} 
+
+.h2-subheader p, .h2-subheader ul {
+	font-family: Oswald, sans-serif;
+	font-size: 25px;
+	font-weight:300; 
+	line-height: 45px;
+	margin: 0 0 50px;
+	color: #222;
+}
+
+.h2-subheader strong{
+	font-weight: 400;
+}
+
+.h2-subheader b {
+	font-weight: 300;
+	color: #059a91;
+}
+
+
+h3 {
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	font-feature-settings: "ss01";
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+
+h4, h5, h6, {
+
+}
+
+body p, body ul {
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	font-feature-settings: "ss01";
+	line-height: 30px;
+	margin: 0 0 30px;	
+}
+
+body ul {
+	padding-left: 25px;
+}
+
+.pfblock-black > div > h3 {
+	color: #fafafa;
+	letter-spacing: 1.5px;
+}
+
+
+.pfblock-black > div > p {
+	color: #fafafa;
+	letter-spacing: .5px;
+}
+
+
+

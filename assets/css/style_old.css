@@ -13,6 +13,7 @@
 */
 
 body {
+	font: 300 15px/1.8 'Avenir', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -91,12 +92,14 @@ body p span{
 
 
 .align-persona {
-	background: #FFF;
 	border:1px solid #EEEEEE;
 	padding: 15px;
 	margin-bottom: 30px;
 }
 
+.align-persona h3:first-of-type {
+	text-align: center;
+}
 
 .align-persona img{
 	width: 200px;
@@ -106,7 +109,13 @@ body p span{
 	margin: 30px auto;
 }
 
+.narrative h3{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 .insights-container-image {
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 
@@ -196,8 +205,10 @@ a,
  * Typography
 /* ---------------------------------------------- */
 
-/*h1, h2, h3, h4, h5, h6 {*/
-	/*letter-spacing: 4px;*/
+h1, h2, h3, h4, h5, h6 {
+	font: 700 40px/1.2 Avenir, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 	margin: 5px 0 5px;
 	color: #222;
 }
@@ -220,7 +231,7 @@ h2 {
 
 h3 {
 	font-size: 14px;
-	/*letter-spacing: 1px;*/
+	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
 
@@ -241,6 +252,10 @@ h6 {
 	font-weight: 400;
 }
 
+.align h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
 
 .align .btn-lg {
 	margin-top: 40px;
@@ -373,15 +388,11 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 50px 0 50px;
+	padding: 100px 0 100px;
 }
 
 .pfblock-gray {
 	background: #f5f5f5;
-}
-
-.pfblock-black {
-	background: #222;
 }
 
 .pfblock-image {
@@ -405,7 +416,8 @@ textarea.form-control {
 }
 
 .pfblock-header {
-	/*margin: 0 0 60px;*/
+	text-align: center;
+	margin: 0 0 60px;
 }
 
 .pfblock-header-left {
@@ -535,8 +547,14 @@ textarea.form-control {
 	padding: 0 15px;
 }
 
+.intro h1{
+    font-weight: 800;
+}
 
 .start {
+	font-family: Libre Baskerville, "Times New Roman", Times, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: none;
 	margin: 15px auto;
