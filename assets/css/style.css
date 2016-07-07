@@ -462,14 +462,14 @@ textarea.form-control {
 }
 
 .calltoaction-decription{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-family: Libre Baskerville, "Times New Roman", sans-serif;
-    font-size: 14px;
-    letter-spacing: .5px;
-    color: #f5f5f5;
-    width: 80%;
-    margin: 0 auto;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+  padding-top: 20px;
+  color: #f5f5f5;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .calltoaction-btn {
@@ -510,7 +510,7 @@ textarea.form-control {
 }
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.5);
+    background-color: rgba(44, 62, 80, 0.6);
 /*    background-image: url("../images/pattern.png");
 */    background-repeat: repeat;
     height: 100%;
