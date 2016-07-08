@@ -718,9 +718,9 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
+	/*font-weight: 700;*/
 	font-size: 25px;
-  font-family: Playweather Display SC;
+  /*font-family: Playweather Display SC;*/
   background-color: #222;
   color: #fafafa;
 }
