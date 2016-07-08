@@ -258,10 +258,10 @@ h6 {
 .scroll-up a,
 .form-control,
 .input-group-addon {
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-		 -o-border-radius: 3px;
-			border-radius: 3px;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+		 -o-border-radius: 0px;
+			border-radius: 0px;
 }
 
 
@@ -476,7 +476,7 @@ textarea.form-control {
 	text-align: center;
 }
 
-.calltoaction-btn > .btn {
+/*.calltoaction-btn > .btn {
 	background: transparent;
   color: #059A91;
 	margin-top: 5px;
@@ -487,7 +487,7 @@ textarea.form-control {
     background: #059A91;
     color:#fff;
 }
-
+*/
 .long-down {
 	margin-bottom: 40px;
 }
