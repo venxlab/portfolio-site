@@ -146,10 +146,6 @@ body p span{
   transform: translateY(-50%);
 */}
 
-.insights-container-image .quote {
-	font-style: italic;
-  font-size: 20px;
-}
 
 .parallax-break {
 	height: 500px;

@@ -97,16 +97,15 @@ body ul {
 	padding-left: 25px;
 }
 
-.pfblock-black > div > h3,
-.pfblock-black > div > h2,
-.pfblock-black > div > .h2-subheader p{
+.pfblock-black h3,
+.pfblock-black h2,
+.pfblock-black p{
 	color: #fafafa;
 	letter-spacing: 1px;
 }
 
 
-.pfblock-black > div > p {
-	color: #fafafa;
+.pfblock-black p {
 	letter-spacing: .5px;
 }
 
@@ -118,6 +117,17 @@ body ul {
 
 .landing-page {
 	text-align: center;
+}
+
+.pfblock-black ul {
+	color: #fafafa;
+	list-style: none;
+}
+
+i {
+	font-family: Libre Baskerville;
+	font-style: italic;
+  font-size: 20px;
 }
 
 
