@@ -109,6 +109,37 @@
 		}
 
 		/* ---------------------------------------------- /*
+		 * Align BG
+		/* ---------------------------------------------- */
+
+		$(".screen-height").height('550px');
+
+		$(window).resize(function(){
+			$(".screen-height").height('550px');
+		});
+
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			$('#home-align').css({'background-attachment': 'scroll'});
+		} else {
+			$('#home-align').parallax('50%', 0.3);
+		}
+
+		/* ---------------------------------------------- /*
+		 * HMD BG
+		/* ---------------------------------------------- */
+
+		$(".screen-height").height('550px');
+
+		$(window).resize(function(){
+			$(".screen-height").height('550px');
+		});
+
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			$('#home-hmd').css({'background-attachment': 'scroll'});
+		} else {
+			$('#home-hmd').parallax('50%', 0.3);
+		}
+		/* ---------------------------------------------- /*
 		 * WOW Animation When You Scroll
 		/* ---------------------------------------------- */
 
