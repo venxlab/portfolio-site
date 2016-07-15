@@ -112,12 +112,6 @@
 		 * Align BG
 		/* ---------------------------------------------- */
 
-		$(".screen-height").height('550px');
-
-		$(window).resize(function(){
-			$(".screen-height").height('550px');
-		});
-
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home-align').css({'background-attachment': 'scroll'});
 		} else {
@@ -128,11 +122,6 @@
 		 * HMD BG
 		/* ---------------------------------------------- */
 
-		$(".screen-height").height('550px');
-
-		$(window).resize(function(){
-			$(".screen-height").height('550px');
-		});
 
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 			$('#home-hmd').css({'background-attachment': 'scroll'});
