@@ -59,6 +59,14 @@ body p span{
     overflow: hidden;
   }
 
+.hero-ggp {
+    background-image:url('../images/ggp/ggp-mockup-crowd.jpg');
+    background-size:cover;
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+    height:550px;
+    overflow: hidden;
+  }
 
 .hero-overlay {
     background-color: rgba(44, 62, 80, 0.5);

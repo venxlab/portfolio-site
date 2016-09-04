@@ -128,6 +128,18 @@
 		} else {
 			$('#home-hmd').parallax('50%', 0.3);
 		}
+
+		/* ---------------------------------------------- /*
+		 * GGP BG
+		/* ---------------------------------------------- */
+
+
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			$('#home-ggp').css({'background-attachment': 'scroll'});
+		} else {
+			$('#home-ggp').parallax('50%', 0);
+		}
+
 		/* ---------------------------------------------- /*
 		 * WOW Animation When You Scroll
 		/* ---------------------------------------------- */
