@@ -1070,7 +1070,7 @@ figure.effect-bubba h2 {
 
 figure.effect-bubba p {
 	font-family: Libre Baskerville, "Times New Roman", Times, sans-serif;
-	font-size: 11px;
+	font-size: 10px;
 	padding: 20px 2.5em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
