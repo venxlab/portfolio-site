@@ -55,6 +55,11 @@ h2 {
 	color: #222;
 }
 
+.align-persona .h2-subheader {
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .h2-subheader strong{
 	font-size: 21px;
 	font-weight: 400;
