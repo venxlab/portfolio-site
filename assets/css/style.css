@@ -1002,10 +1002,12 @@ textarea.form-control {
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+	text-transform: initial;
 }
 
 .grid figure h2 span {
 	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .grid figure h2,
@@ -1069,12 +1071,16 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	padding-top: 10%;
+	padding-top: 5%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
     color: #fff;
+}
+
+figure.effect-bubba h2 span {
+	padding-top: 10%;
 }
 
 figure.effect-bubba p {
